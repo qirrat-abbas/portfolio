@@ -1,0 +1,59 @@
+#contact{
+    padding-bottom: 2%;
+    background-color: rgb(62, 61, 61)
+}
+
+#email{
+    margin-top: 2%;
+    color: aliceblue;
+}
+
+#emailIcon{
+    margin-right: 3px; font-size: 20px;
+    margin-top: 2.3%;
+    color: rgb(211, 211, 206);
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px; /* Adjust width */
+    height: 35px; /* Adjust height */
+    border-radius: 50%; /* Make the icons round */
+    background-color: #1e2c34; /* LinkedIn background color */
+    color: white; /* Icon color */
+    font-size: 18px; /* Icon size */
+    text-decoration: none; /* Remove underline from links */
+    margin-left: 1%;
+  }
+
+  .social-icon:hover {
+    background-color:  #3a4a53; /* Darker LinkedIn background color on hover */
+  }
+
+  .social-icon i {
+    transition: color 0.3s ease; /* Smooth transition for icon color change */
+  }
+
+  .social-icon:hover i {
+    color: white; /* Change icon color on hover */
+  }
+
+  .social-icon.facebook-icon {
+    background-color: #4267B2; /* Facebook background color */
+  }
+
+  .social-icon.facebook-icon:hover {
+    background-color: #2e4a7e; /* Darker Facebook background color on hover */
+  }
+
+  @media (max-width: 576px){
+    .social-icon{
+        font-size: medium;
+    }
+
+    #emailIcon{
+      margin-top: 2.5%;
+    }
+  }

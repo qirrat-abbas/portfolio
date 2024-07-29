@@ -1,0 +1,110 @@
+*{
+    margin: 0; padding: 0;
+}
+
+#projSection{
+    background-color: rgb(156, 158, 158);
+}
+
+.box{
+    height: 200px;
+    margin-top: 4%; margin-left: 2%; margin-right: 2%;
+    border-radius: 10px;
+    padding-top: 0.8%;
+    border: 3.5px solid rgb(106, 104, 104);
+    font-size: x-large; font-weight: 600;
+    background-size: cover;
+    position: relative;
+    display: flex; justify-content: center; align-items: center;
+    color: rgb(13, 14, 14);
+}
+
+.box > .link{
+    position: absolute;
+    top: 10px; right: 15px;
+    font-size: large;
+    padding-top: 0.8%;
+    color: rgb(49, 49, 49);
+}
+
+.box:hover{
+    transform: scale(1.05);
+    box-shadow: rgb(183, 183, 177) 0px 0px 19px 12px;
+    transition: 0.3s ease-in-out;
+}
+
+.box > p{
+    text-align: center;
+    width: 100%;
+    background-color: rgba(4, 4, 4, 0.6);
+    color: white;
+    display: none;
+}
+
+.box:hover p{
+    transition:  1s ease;
+    display: block;
+}
+
+.link:hover{
+    color: rgb(33, 85, 159);
+    text-shadow: rgb(44, 44, 43) 0px 0px 20px 10px;
+}
+/*.box > p{
+    background-color: gray;
+    opacity: 0.9;
+}*/
+
+#wayfair{
+    background-image: url(../../assets/images/wayfair.png);
+}
+
+#calculator{
+    background-image: url(../../assets/images/calculator.jpg);
+}
+
+#schoolForm{
+    background-image: url(../../assets/images/school\ form.png);
+}
+
+#cafeProject{
+    background-image: url(../../assets/images/cafeProject.png);
+}
+
+#figmaProject{
+    background-image: url(../../assets/images/figmaProject.png);
+}
+
+#todolist{
+    background-image: url(../../assets/images/todolist.png);
+}
+
+#project{
+    margin-top: 5%; margin-bottom: 0.2%;
+    color: rgb(41, 40, 40);
+}
+
+#projectsDiv{
+    padding-bottom: 8%;
+}
+
+@media (max-width: 575px){
+
+    .box{
+        max-width: 80%;
+        font-size: large;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1158px){
+    .box{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 500px){
+    .box > p{
+        font-weight: bold;
+    }
+}

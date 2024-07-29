@@ -1,0 +1,117 @@
+.nav-link{
+    margin-right: 2%;
+    color: #ECF0F1;
+}
+
+.nav-link:hover{
+    color: rgb(84, 90, 97);
+    transition: 0.2s ease-in-out;
+    margin-bottom: 1px;
+    border-bottom: 2px solid beige;
+}
+
+#navHeading{
+    margin-left: 2%;
+    margin-top: 5px;
+    color: beige;
+}
+
+#customNavBar{
+    background-color: #2C3E50;
+}
+
+#homePic{
+    height: 280px;
+    background-image: url(../../assets/images/technology-background-design-in-white-color-free-vector.jpg);
+    
+}
+
+#name{
+    color: rgb(40, 40, 38);
+    font-size: medium; font-weight: 400;
+    text-shadow: 2px 2px 4px rgba(215, 210, 210, 0.5);
+}
+
+#myHeading{
+    margin-top: 20%;
+    color: rgb(23, 23, 21);
+    font-weight: 700;
+}
+
+#proffession{
+    font-weight: 400;
+    color: #040505;
+    margin-left: 6px;
+}
+
+a > .nav-link{
+    margin-right: 2%;
+}
+
+@media (min-width: 800px){
+
+    #navigation > li{
+        font-size: large;
+    }
+
+    #navHeading{
+        font-size: x-large;
+    }
+
+    #myHeading{
+        font-size: 60px;
+    }
+
+    #homePic{
+        height: 580px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #proffession{
+        margin-left: 16px;
+    }
+
+    #name{
+        font-size: large;
+    }
+} 
+
+/*@media (min-width:735px) and (max-width:950){
+    #myHeading{
+        margin-top: 25%;
+    }
+}*/
+
+@media (max-width: 315px){
+    #myHeading{
+        font-size: medium;
+    }
+}
+
+@media (max-width: 450px){
+    #myHeading{
+        margin-top: 40%;
+    }
+}
+
+@media (max-width: 900px){
+    .navbar-collapse {
+        height: 100vh;
+        overflow-y: auto;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    .nav-link{
+        font-size: x-large;
+    }
+}
